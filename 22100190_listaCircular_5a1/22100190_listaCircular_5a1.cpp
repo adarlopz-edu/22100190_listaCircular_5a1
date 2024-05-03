@@ -288,7 +288,7 @@ int main() {
                 }
                 if (opcionIterador == 'e') {
                     //lista.iterador_prev();
-                    cout << "la lista simple no puede ir hacia atras" << endl << endl;
+                    cout << "la lista circular simple no puede ir hacia atras" << endl << endl;
 
                 }
                 if (opcionIterador == 'f') {
