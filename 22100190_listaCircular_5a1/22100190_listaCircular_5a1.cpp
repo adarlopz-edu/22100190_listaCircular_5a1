@@ -153,9 +153,11 @@ int main() {
     Lista lista;
     char opcion;
 
-    lista.agregar(new Persona("juan", "lopez", 22100190, 21));
-    lista.agregar(new Persona("pedro", "lopez", 22100191, 21));
-    lista.agregar(new Persona("valentino", "lopez", 22100192, 21));
+    lista.agregar(new Persona("juan", "lopez", 22100191, 21));
+    lista.agregar(new Persona("pedro", "lopez", 22100192, 21));
+    lista.agregar(new Persona("valentino", "lopez", 22100193, 21));
+    lista.agregar(new Persona("hello", "world", 22100194, 12));
+    lista.agregar(new Persona("hola", "mundo", 22100195, 21));
 
     // Menu
     while (true) {
